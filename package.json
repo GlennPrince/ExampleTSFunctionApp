@@ -1,0 +1,23 @@
+{
+  "name": "functionapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@types/node": "^14.14.28",
+    "azure-functions-core-tools": "^3.0.3284",
+    "azure-storage": "^2.10.3",
+    "guid-typescript": "^1.0.9",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "typescript": "^3.3.3"
+  }
+}
